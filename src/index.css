@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+#root{
+  display:grid;
+ grid-template-columns: 1fr 1fr 1fr; 
+/* background-color: antiquewhite; */
+ column-gap: 10px; 
+
+  
+}
+
+.flash-cards{
+ text-align: center;
+
+ 
+}
+.selected{
+  background-color: red;
+  transition: 0.5s;
+}
